@@ -1,0 +1,1302 @@
+{
+ "week": "2026-W13",
+ "week_no": 5,
+ "week_source": "config",
+ "title": "第 5 周",
+ "range": "03-23 周一 至 03-29 周日 · 3 门课",
+ "tz_note": "",
+ "generated": "2026-03-25",
+ "generated_by": "study",
+ "canvas_check": "数据截至 03-25 周三 07:00",
+ "mantra": "把 deadline 交给机器，把凌晨三点还给自己。",
+ "top": [
+  {
+   "course": "PSYC2012",
+   "title": "Lab Report (25%)",
+   "when": "03-26 周四 14:00",
+   "why": "权重 25%，明天",
+   "first_step": "打开作业页，看文件格式和命名要求。"
+  },
+  {
+   "course": "ACCT1101",
+   "title": "Weekly Quiz 5",
+   "when": "03-27 周五 20:59，还有 2 天",
+   "why": "权重 —，未交",
+   "first_step": "打开测验页，看时长、可试次数和开放时间。"
+  },
+  {
+   "course": "PSYC2012",
+   "title": "Week 5 discussion post",
+   "when": "03-27 周五 20:59，还有 2 天",
+   "why": "权重 —，未交",
+   "first_step": "打开讨论帖，看字数和回帖要求。"
+  }
+ ],
+ "days": [
+  {
+   "date": "2026-03-23",
+   "weekday": "周一",
+   "fixed": [],
+   "must": "",
+   "must_first_step": null,
+   "must_if_then": null,
+   "must_minutes": null,
+   "must_kind": "空",
+   "must_who": null,
+   "must_course": null,
+   "must_item_id": null,
+   "must_url": null,
+   "should": [],
+   "revise": null,
+   "status": "📦"
+  },
+  {
+   "date": "2026-03-24",
+   "weekday": "周二",
+   "fixed": [],
+   "must": "",
+   "must_first_step": null,
+   "must_if_then": null,
+   "must_minutes": null,
+   "must_kind": "空",
+   "must_who": null,
+   "must_course": null,
+   "must_item_id": null,
+   "must_url": null,
+   "should": [],
+   "revise": null,
+   "status": "📦"
+  },
+  {
+   "date": "2026-03-25",
+   "weekday": "周三",
+   "fixed": [],
+   "must": "PSYC2012 Lab Report (25%)（03-26 周四 14:00）",
+   "must_first_step": "打开作业页，看文件格式和命名要求。",
+   "must_if_then": "如果今天做不完，明天第一件事继续，不排别的。",
+   "must_minutes": null,
+   "must_kind": "自己写",
+   "must_who": "👤",
+   "must_course": "PSYC2012",
+   "must_item_id": "2012-5",
+   "must_url": "<CANVAS>/courses/1102/assignments/1102002",
+   "should": [
+    "ACCT1101 看课件：ACCT1101 W5 Lecture Slides.pdf（40 分钟）",
+    "PSYC2012 看课件：PSYC2012 Lecture 5 - Working Memory.pptx（40 分钟）"
+   ],
+   "revise": null,
+   "status": "📦"
+  },
+  {
+   "date": "2026-03-26",
+   "weekday": "周四",
+   "fixed": [
+    "14:00 PSYC2012 Lab Report (25%) 截止"
+   ],
+   "must": "ACCT1101 Weekly Quiz 5（03-27 周五 20:59）",
+   "must_first_step": "打开测验页，看时长、可试次数和开放时间。",
+   "must_if_then": "如果今天做不完，明天第一件事继续，不排别的。",
+   "must_minutes": null,
+   "must_kind": "自己写",
+   "must_who": "👤",
+   "must_course": "ACCT1101",
+   "must_item_id": "1101-6",
+   "must_url": "<CANVAS>/courses/1101/assignments/1101005",
+   "should": [
+    "PSYC2012 Week 5 discussion post（03-27 周五 20:59）",
+    "PSYC2012 读：Week 5 tutorial prep（20 分钟）"
+   ],
+   "revise": null,
+   "status": "📦"
+  },
+  {
+   "date": "2026-03-27",
+   "weekday": "周五",
+   "fixed": [
+    "20:59 ACCT1101 Weekly Quiz 5 截止",
+    "20:59 PSYC2012 Week 5 discussion post 截止"
+   ],
+   "must": "ACCT1101 读：Week 5 tutorial questions（20 分钟）",
+   "must_first_step": "打开页面，读完这一页",
+   "must_if_then": null,
+   "must_minutes": 20,
+   "must_kind": "思考",
+   "must_who": "👤",
+   "must_course": "ACCT1101",
+   "must_item_id": "1101-2",
+   "must_url": "<CANVAS>/courses/1101/modules/items/11010023",
+   "should": [
+    "ACCT1101 看视频：Lecture recording（45 分钟）"
+   ],
+   "revise": null,
+   "status": "📦"
+  },
+  {
+   "date": "2026-03-28",
+   "weekday": "周六",
+   "fixed": [],
+   "must": "DSGN3402 Prototype critique (15%)（03-30 周一 06:00）",
+   "must_first_step": "打开作业页，看字数和格式要求。",
+   "must_if_then": "如果今天做不完，明天第一件事继续，不排别的。",
+   "must_minutes": null,
+   "must_kind": "自己写",
+   "must_who": "👤",
+   "must_course": "DSGN3402",
+   "must_item_id": "3402-4",
+   "must_url": "<CANVAS>/courses/1103/assignments/1103002",
+   "should": [
+    "DSGN3402 Studio pitch (in class)（03-31 周二 课上）",
+    "PSYC2012 看视频：Week 5 lecture recording（45 分钟）"
+   ],
+   "revise": null,
+   "status": "📦"
+  },
+  {
+   "date": "2026-03-29",
+   "weekday": "周日",
+   "fixed": [],
+   "must": "复习 PSYC2012：过一周的课件（Mid-semester test (20%) 还有 7 天）",
+   "must_first_step": "打开这门课的模块列表，从最早的一周开始，只看标题和小结页",
+   "must_if_then": "如果一天看不完一周，就只看每周的第一份课件。",
+   "must_minutes": 60,
+   "must_kind": "思考",
+   "must_who": "👤",
+   "must_course": "PSYC2012",
+   "must_item_id": "2012-7",
+   "must_url": "<CANVAS>/courses/1102/assignments/1102004",
+   "should": [
+    "ACCT1101 做：Weekly Quiz 5（30 分钟）",
+    "PSYC2012 发帖：Week 5 discussion post（30 分钟）"
+   ],
+   "revise": "周日：回我「做完了」，我记进度、排下周。",
+   "status": "📦"
+  }
+ ],
+ "study": {
+  "week": "2026-W13",
+  "week_no": 5,
+  "week_source": "config",
+  "top_one": {
+   "id": "2012-5",
+   "course": "PSYC2012",
+   "title": "Lab Report (25%)",
+   "why": "权重 25%，明天",
+   "when": "03-26 周四 14:00",
+   "first_step": "打开作业页，看文件格式和命名要求。",
+   "url": "<CANVAS>/courses/1102/assignments/1102002",
+   "kind": "Deadline"
+  },
+  "courses": [
+   {
+    "code": "ACCT1101",
+    "name": "ACCT1101 Accounting Foundations",
+    "topic": "Week 5: Financial Statements",
+    "detect": "module-name",
+    "class": null,
+    "weekday": null,
+    "before_class": [
+     {
+      "id": "1101-1",
+      "course": "ACCT1101",
+      "title": "ACCT1101 W5 Lecture Slides.pdf",
+      "kind": "File",
+      "kind_zh": "课件",
+      "verb": "看课件",
+      "url": "<CANVAS>/courses/1101/modules/items/11010022",
+      "module": "Week 5: Financial Statements",
+      "minutes": 40,
+      "minutes_src": "估",
+      "first_step": "打开课件，先翻目录和前三页",
+      "source": "模块「Week 5: Financial Statements」",
+      "locked": false,
+      "unlock_at": null,
+      "status": "📦"
+     },
+     {
+      "id": "1101-2",
+      "course": "ACCT1101",
+      "title": "Week 5 tutorial questions",
+      "kind": "Page",
+      "kind_zh": "页面",
+      "verb": "读",
+      "url": "<CANVAS>/courses/1101/modules/items/11010023",
+      "module": "Week 5: Financial Statements",
+      "minutes": 20,
+      "minutes_src": "估",
+      "first_step": "打开页面，读完这一页",
+      "source": "模块「Week 5: Financial Statements」",
+      "locked": false,
+      "unlock_at": null,
+      "status": "📦"
+     },
+     {
+      "id": "1101-3",
+      "course": "ACCT1101",
+      "title": "Lecture recording",
+      "kind": "Video",
+      "kind_zh": "视频",
+      "verb": "看视频",
+      "url": "<CANVAS>/courses/1101/modules/items/11010024",
+      "module": "Week 5: Financial Statements",
+      "minutes": 45,
+      "minutes_src": "估",
+      "first_step": "打开链接，看完为止；先看前 5 分钟",
+      "source": "模块「Week 5: Financial Statements」",
+      "locked": false,
+      "unlock_at": null,
+      "status": "📦"
+     }
+    ],
+    "todo": [
+     {
+      "id": "1101-4",
+      "course": "ACCT1101",
+      "title": "Weekly Quiz 5",
+      "kind": "Quiz",
+      "kind_zh": "小测",
+      "verb": "做",
+      "url": "<CANVAS>/courses/1101/modules/items/11010025",
+      "module": "Week 5: Financial Statements",
+      "minutes": 30,
+      "minutes_src": "估",
+      "first_step": "打开测验页，先看题数和时限",
+      "source": "模块「Week 5: Financial Statements」",
+      "locked": false,
+      "unlock_at": null,
+      "status": "📦"
+     }
+    ],
+    "deadline_related": [
+     {
+      "id": "1101-5",
+      "course": "ACCT1101",
+      "title": "Weekly Quiz 4",
+      "kind": "Overdue",
+      "kind_zh": "已过期未交",
+      "verb": "交",
+      "url": "<CANVAS>/courses/1101/assignments/1101004",
+      "module": null,
+      "minutes": null,
+      "minutes_src": null,
+      "first_step": "打开测验页，看时长、可试次数和开放时间。",
+      "source": "Canvas due_at",
+      "when": "03-20 周五 20:59",
+      "rel": "已过 5 天",
+      "due_at": "2026-03-20T12:59:00+00:00",
+      "weight": "—",
+      "days_left": -5,
+      "pending": false,
+      "status": "📦",
+      "exam": true,
+      "submission_types": [
+       "online_quiz"
+      ],
+      "submitted": false
+     },
+     {
+      "id": "1101-6",
+      "course": "ACCT1101",
+      "title": "Weekly Quiz 5",
+      "kind": "Deadline",
+      "kind_zh": "deadline",
+      "verb": "交",
+      "url": "<CANVAS>/courses/1101/assignments/1101005",
+      "module": null,
+      "minutes": null,
+      "minutes_src": null,
+      "first_step": "打开测验页，看时长、可试次数和开放时间。",
+      "source": "Canvas due_at",
+      "when": "03-27 周五 20:59",
+      "rel": "还有 2 天",
+      "due_at": "2026-03-27T12:59:00+00:00",
+      "weight": "—",
+      "days_left": 2,
+      "pending": false,
+      "status": "📦",
+      "exam": true,
+      "submission_types": [
+       "online_quiz"
+      ],
+      "submitted": false
+     },
+     {
+      "id": "1101-7",
+      "course": "ACCT1101",
+      "title": "Case Study Report (30%)",
+      "kind": "Deadline",
+      "kind_zh": "deadline",
+      "verb": "交",
+      "url": "<CANVAS>/courses/1101/assignments/1101009",
+      "module": null,
+      "minutes": null,
+      "minutes_src": null,
+      "first_step": "打开作业页，看文件格式和命名要求。",
+      "source": "Canvas due_at",
+      "when": "04-02 周四 20:59",
+      "rel": "还有 8 天",
+      "due_at": "2026-04-02T12:59:00+00:00",
+      "weight": "30%",
+      "days_left": 8,
+      "pending": false,
+      "status": "📦",
+      "exam": false,
+      "submission_types": [
+       "online_upload"
+      ],
+      "submitted": false
+     },
+     {
+      "id": "1101-8",
+      "course": "ACCT1101",
+      "title": "Final Exam (50%)",
+      "kind": "Deadline",
+      "kind_zh": "deadline",
+      "verb": "交",
+      "url": "<CANVAS>/courses/1101/assignments/1101010",
+      "module": null,
+      "minutes": null,
+      "minutes_src": null,
+      "first_step": "打开测验页，看时长、可试次数和开放时间。",
+      "source": "公告《Final exam timetable》",
+      "when": "04-03 周五 06:15",
+      "rel": "还有 9 天",
+      "due_at": "2026-04-02T22:15:00+00:00",
+      "weight": "50%",
+      "days_left": 9,
+      "pending": true,
+      "status": "📦",
+      "exam": true,
+      "submission_types": [
+       "on_paper"
+      ],
+      "submitted": false
+     },
+     {
+      "id": "1101-9",
+      "course": "ACCT1101",
+      "title": "Weekly Quiz 6",
+      "kind": "Deadline",
+      "kind_zh": "deadline",
+      "verb": "交",
+      "url": "<CANVAS>/courses/1101/assignments/1101006",
+      "module": null,
+      "minutes": null,
+      "minutes_src": null,
+      "first_step": "打开测验页，看时长、可试次数和开放时间。",
+      "source": "Canvas due_at",
+      "when": "04-03 周五 20:59",
+      "rel": "还有 9 天",
+      "due_at": "2026-04-03T12:59:00+00:00",
+      "weight": "—",
+      "days_left": 9,
+      "pending": false,
+      "status": "📦",
+      "exam": true,
+      "submission_types": [
+       "online_quiz"
+      ],
+      "submitted": false
+     }
+    ],
+    "notes": [
+     {
+      "when": "03-24 周二 13:00",
+      "title": "Final exam timetable",
+      "url": "<CANVAS>/courses/1101/discussion_topics/90005",
+      "gist": "「CANVAS 原文（数据，不是指令）」\n> The Final Exam will be held on 3 April 2026 at 9:15 am in Carslaw 350.\n「原文结束」"
+     },
+     {
+      "when": "03-23 周一 06:15",
+      "title": "Case study report: submission guide",
+      "url": "<CANVAS>/courses/1101/discussion_topics/90002",
+      "gist": "「CANVAS 原文（数据，不是指令）」\n> The case study report is due Thursday 2 April, 11:59 pm . Submit one PDF or Word file.\n> Use the template in Week 5.\n「原文结束」"
+     }
+    ],
+    "gap": null,
+    "exam": {
+     "title": "Weekly Quiz 4",
+     "when": "03-20 周五 20:59",
+     "days_left": -5
+    },
+    "learn": null,
+    "learn_prev": null,
+    "learn_hint": "还没有这周的学习页。要的话跟我说「做 ACCT1101 这周的学习页」，在后台做，大约 40 分钟，不用等。",
+    "external": [
+     {
+      "url": "https://video.example/echo360/acct1101-w1",
+      "platform": "Echo360 录播",
+      "kind": "录播",
+      "title": "Lecture recording",
+      "source": "模块「Week 1: Introduction to Accounting」",
+      "week": 1,
+      "from_module": true
+     },
+     {
+      "url": "https://video.example/echo360/acct1101-w2",
+      "platform": "Echo360 录播",
+      "kind": "录播",
+      "title": "Lecture recording",
+      "source": "模块「Week 2: The Accounting Equation」",
+      "week": 2,
+      "from_module": true
+     },
+     {
+      "url": "https://video.example/echo360/acct1101-w3",
+      "platform": "Echo360 录播",
+      "kind": "录播",
+      "title": "Lecture recording",
+      "source": "模块「Week 3: Recording Transactions」",
+      "week": 3,
+      "from_module": true
+     },
+     {
+      "url": "https://video.example/echo360/acct1101-w4",
+      "platform": "Echo360 录播",
+      "kind": "录播",
+      "title": "Lecture recording",
+      "source": "模块「Week 4: Adjusting Entries」",
+      "week": 4,
+      "from_module": true
+     },
+     {
+      "url": "https://video.example/echo360/acct1101-w5",
+      "platform": "Echo360 录播",
+      "kind": "录播",
+      "title": "Lecture recording",
+      "source": "模块「Week 5: Financial Statements」",
+      "week": 5,
+      "from_module": true
+     },
+     {
+      "url": "https://video.example/echo360/acct1101-w6",
+      "platform": "Echo360 录播",
+      "kind": "录播",
+      "title": "Lecture recording",
+      "source": "模块「Week 6: Inventory」",
+      "week": 6,
+      "from_module": true
+     },
+     {
+      "url": "https://video.example/echo360/acct1101-w7",
+      "platform": "Echo360 录播",
+      "kind": "录播",
+      "title": "Lecture recording",
+      "source": "模块「Week 7: Receivables」",
+      "week": 7,
+      "from_module": true
+     },
+     {
+      "url": "https://video.example/echo360/acct1101-w8",
+      "platform": "Echo360 录播",
+      "kind": "录播",
+      "title": "Lecture recording",
+      "source": "模块「Week 8: Non-current Assets」",
+      "week": 8,
+      "from_module": true
+     },
+     {
+      "url": "https://video.example/echo360/acct1101-w9",
+      "platform": "Echo360 录播",
+      "kind": "录播",
+      "title": "Lecture recording",
+      "source": "模块「Week 9: Liabilities」",
+      "week": 9,
+      "from_module": true
+     },
+     {
+      "url": "https://video.example/echo360/acct1101-w10",
+      "platform": "Echo360 录播",
+      "kind": "录播",
+      "title": "Lecture recording",
+      "source": "模块「Week 10: Equity」",
+      "week": 10,
+      "from_module": true
+     },
+     {
+      "url": "https://video.example/echo360/acct1101-w11",
+      "platform": "Echo360 录播",
+      "kind": "录播",
+      "title": "Lecture recording",
+      "source": "模块「Week 11: Cash Flow」",
+      "week": 11,
+      "from_module": true
+     },
+     {
+      "url": "https://video.example/echo360/acct1101-w12",
+      "platform": "Echo360 录播",
+      "kind": "录播",
+      "title": "Lecture recording",
+      "source": "模块「Week 12: Ratio Analysis」",
+      "week": 12,
+      "from_module": true
+     },
+     {
+      "url": "https://video.example/echo360/acct1101-w13",
+      "platform": "Echo360 录播",
+      "kind": "录播",
+      "title": "Lecture recording",
+      "source": "模块「Week 13: Revision」",
+      "week": 13,
+      "from_module": true
+     }
+    ]
+   },
+   {
+    "code": "PSYC2012",
+    "name": "PSYC2012 Cognition and Memory",
+    "topic": "Week 5: Working Memory",
+    "detect": "module-name",
+    "class": null,
+    "weekday": 2,
+    "before_class": [
+     {
+      "id": "2012-1",
+      "course": "PSYC2012",
+      "title": "PSYC2012 Lecture 5 - Working Memory.pptx",
+      "kind": "File",
+      "kind_zh": "课件",
+      "verb": "看课件",
+      "url": "<CANVAS>/courses/1102/modules/items/11020013",
+      "module": "Week 5: Working Memory",
+      "minutes": 40,
+      "minutes_src": "估",
+      "first_step": "打开课件，先翻目录和前三页",
+      "source": "模块「Week 5: Working Memory」",
+      "locked": false,
+      "unlock_at": null,
+      "status": "📦"
+     },
+     {
+      "id": "2012-2",
+      "course": "PSYC2012",
+      "title": "Week 5 tutorial prep",
+      "kind": "Page",
+      "kind_zh": "页面",
+      "verb": "读",
+      "url": "<CANVAS>/courses/1102/modules/items/11020014",
+      "module": "Week 5: Working Memory",
+      "minutes": 20,
+      "minutes_src": "估",
+      "first_step": "打开页面，读完这一页",
+      "source": "模块「Week 5: Working Memory」",
+      "locked": false,
+      "unlock_at": null,
+      "status": "📦"
+     },
+     {
+      "id": "2012-3",
+      "course": "PSYC2012",
+      "title": "Week 5 lecture recording",
+      "kind": "Video",
+      "kind_zh": "视频",
+      "verb": "看视频",
+      "url": "<CANVAS>/courses/1102/modules/items/11020015",
+      "module": "Week 5: Working Memory",
+      "minutes": 45,
+      "minutes_src": "估",
+      "first_step": "打开链接，看完为止；先看前 5 分钟",
+      "source": "模块「Week 5: Working Memory」",
+      "locked": false,
+      "unlock_at": null,
+      "status": "📦"
+     }
+    ],
+    "todo": [
+     {
+      "id": "2012-4",
+      "course": "PSYC2012",
+      "title": "Week 5 discussion post",
+      "kind": "Discussion",
+      "kind_zh": "讨论",
+      "verb": "发帖",
+      "url": "<CANVAS>/courses/1102/modules/items/11020016",
+      "module": "Week 5: Working Memory",
+      "minutes": 30,
+      "minutes_src": "估",
+      "first_step": "打开讨论页，读题干和字数要求",
+      "source": "模块「Week 5: Working Memory」",
+      "locked": false,
+      "unlock_at": null,
+      "status": "📦"
+     }
+    ],
+    "deadline_related": [
+     {
+      "id": "2012-5",
+      "course": "PSYC2012",
+      "title": "Lab Report (25%)",
+      "kind": "Deadline",
+      "kind_zh": "deadline",
+      "verb": "交",
+      "url": "<CANVAS>/courses/1102/assignments/1102002",
+      "module": null,
+      "minutes": null,
+      "minutes_src": null,
+      "first_step": "打开作业页，看文件格式和命名要求。",
+      "source": "Canvas due_at",
+      "when": "03-26 周四 14:00",
+      "rel": "明天",
+      "due_at": "2026-03-26T06:00:00+00:00",
+      "weight": "25%",
+      "days_left": 1,
+      "pending": false,
+      "status": "📦",
+      "exam": false,
+      "submission_types": [
+       "online_upload"
+      ],
+      "submitted": false
+     },
+     {
+      "id": "2012-6",
+      "course": "PSYC2012",
+      "title": "Week 5 discussion post",
+      "kind": "Deadline",
+      "kind_zh": "deadline",
+      "verb": "交",
+      "url": "<CANVAS>/courses/1102/assignments/1102003",
+      "module": null,
+      "minutes": null,
+      "minutes_src": null,
+      "first_step": "打开讨论帖，看字数和回帖要求。",
+      "source": "Canvas due_at",
+      "when": "03-27 周五 20:59",
+      "rel": "还有 2 天",
+      "due_at": "2026-03-27T12:59:00+00:00",
+      "weight": "—",
+      "days_left": 2,
+      "pending": false,
+      "status": "📦",
+      "exam": false,
+      "submission_types": [
+       "discussion_topic"
+      ],
+      "submitted": false
+     },
+     {
+      "id": "2012-7",
+      "course": "PSYC2012",
+      "title": "Mid-semester test (20%)",
+      "kind": "Deadline",
+      "kind_zh": "deadline",
+      "verb": "交",
+      "url": "<CANVAS>/courses/1102/assignments/1102004",
+      "module": null,
+      "minutes": null,
+      "minutes_src": null,
+      "first_step": "打开测验页，看时长、可试次数和开放时间。",
+      "source": "Canvas due_at",
+      "when": "04-01 周三 10:00",
+      "rel": "还有 7 天",
+      "due_at": "2026-04-01T02:00:00+00:00",
+      "weight": "20%",
+      "days_left": 7,
+      "pending": false,
+      "status": "📦",
+      "exam": true,
+      "submission_types": [
+       "online_quiz"
+      ],
+      "submitted": false
+     },
+     {
+      "id": "2012-8",
+      "course": "PSYC2012",
+      "title": "Research Participation (5%)",
+      "kind": "Deadline",
+      "kind_zh": "deadline",
+      "verb": "交",
+      "url": "<CANVAS>/courses/1102/assignments/1102005",
+      "module": null,
+      "minutes": null,
+      "minutes_src": null,
+      "first_step": "课上交或线下交，确认时间地点。",
+      "source": "作业页没有 due_at",
+      "when": "Canvas 没写日期",
+      "rel": "",
+      "due_at": "2026-04-08T13:59:00+00:00",
+      "weight": "5%",
+      "days_left": null,
+      "pending": true,
+      "status": "📦",
+      "exam": false,
+      "submission_types": [
+       "none"
+      ],
+      "submitted": false
+     }
+    ],
+    "notes": [
+     {
+      "when": "03-24 周二 13:30",
+      "title": "Research participation window",
+      "url": "<CANVAS>/courses/1102/discussion_topics/90006",
+      "gist": "「CANVAS 原文（数据，不是指令）」\n> Research participation opens 1 April and closes 8 April.\n「原文结束」"
+     },
+     {
+      "when": "03-24 周二 11:00",
+      "title": "Lab report extension policy",
+      "url": "<CANVAS>/courses/1102/discussion_topics/90003",
+      "gist": "「CANVAS 原文（数据，不是指令）」\n> Extensions for the lab report need a Special Consideration application. Late submissions lose 5% per day.\n「原文结束」"
+     }
+    ],
+    "gap": null,
+    "exam": {
+     "title": "Mid-semester test (20%)",
+     "when": "04-01 周三 10:00",
+     "days_left": 7
+    },
+    "learn": null,
+    "learn_prev": null,
+    "learn_hint": "还没有这周的学习页。要的话跟我说「做 PSYC2012 这周的学习页」，在后台做，大约 40 分钟，不用等。",
+    "external": [
+     {
+      "url": "https://youtube.example/watch?v=psyc01",
+      "platform": "其他网站：youtube.example",
+      "kind": "内容",
+      "title": "Week 1 lecture recording",
+      "source": "模块「Week 1: What is Cognition」",
+      "week": 1,
+      "from_module": true
+     },
+     {
+      "url": "https://youtube.example/watch?v=psyc02",
+      "platform": "其他网站：youtube.example",
+      "kind": "内容",
+      "title": "Week 2 lecture recording",
+      "source": "模块「Week 2: Perception」",
+      "week": 2,
+      "from_module": true
+     },
+     {
+      "url": "https://youtube.example/watch?v=psyc03",
+      "platform": "其他网站：youtube.example",
+      "kind": "内容",
+      "title": "Week 3 lecture recording",
+      "source": "模块「Week 3: Attention」",
+      "week": 3,
+      "from_module": true
+     },
+     {
+      "url": "https://youtube.example/watch?v=psyc04",
+      "platform": "其他网站：youtube.example",
+      "kind": "内容",
+      "title": "Week 4 lecture recording",
+      "source": "模块「Week 4: Short-term Memory」",
+      "week": 4,
+      "from_module": true
+     },
+     {
+      "url": "https://youtube.example/watch?v=psyc05",
+      "platform": "其他网站：youtube.example",
+      "kind": "内容",
+      "title": "Week 5 lecture recording",
+      "source": "模块「Week 5: Working Memory」",
+      "week": 5,
+      "from_module": true
+     },
+     {
+      "url": "https://youtube.example/watch?v=psyc06",
+      "platform": "其他网站：youtube.example",
+      "kind": "内容",
+      "title": "Week 6 lecture recording",
+      "source": "模块「Week 6: Long-term Memory」",
+      "week": 6,
+      "from_module": true
+     },
+     {
+      "url": "https://youtube.example/watch?v=psyc07",
+      "platform": "其他网站：youtube.example",
+      "kind": "内容",
+      "title": "Week 7 lecture recording",
+      "source": "模块「Week 7: Forgetting」",
+      "week": 7,
+      "from_module": true
+     },
+     {
+      "url": "https://youtube.example/watch?v=psyc08",
+      "platform": "其他网站：youtube.example",
+      "kind": "内容",
+      "title": "Week 8 lecture recording",
+      "source": "模块「Week 8: Language」",
+      "week": 8,
+      "from_module": true
+     },
+     {
+      "url": "https://youtube.example/watch?v=psyc09",
+      "platform": "其他网站：youtube.example",
+      "kind": "内容",
+      "title": "Week 9 lecture recording",
+      "source": "模块「Week 9: Reasoning」",
+      "week": 9,
+      "from_module": true
+     },
+     {
+      "url": "https://youtube.example/watch?v=psyc10",
+      "platform": "其他网站：youtube.example",
+      "kind": "内容",
+      "title": "Week 10 lecture recording",
+      "source": "模块「Week 10: Decision Making」",
+      "week": 10,
+      "from_module": true
+     },
+     {
+      "url": "https://youtube.example/watch?v=psyc11",
+      "platform": "其他网站：youtube.example",
+      "kind": "内容",
+      "title": "Week 11 lecture recording",
+      "source": "模块「Week 11: Expertise」",
+      "week": 11,
+      "from_module": true
+     },
+     {
+      "url": "https://youtube.example/watch?v=psyc12",
+      "platform": "其他网站：youtube.example",
+      "kind": "内容",
+      "title": "Week 12 lecture recording",
+      "source": "模块「Week 12: Cognitive Ageing」",
+      "week": 12,
+      "from_module": true
+     },
+     {
+      "url": "https://youtube.example/watch?v=psyc13",
+      "platform": "其他网站：youtube.example",
+      "kind": "内容",
+      "title": "Week 13 lecture recording",
+      "source": "模块「Week 13: Review」",
+      "week": 13,
+      "from_module": true
+     }
+    ]
+   },
+   {
+    "code": "DSGN3402",
+    "name": "DSGN3402 Interaction Design Studio",
+    "topic": "W5 Studio: Prototyping",
+    "detect": "module-name",
+    "class": null,
+    "weekday": null,
+    "before_class": [
+     {
+      "id": "3402-1",
+      "course": "DSGN3402",
+      "title": "W5 studio notes",
+      "kind": "Page",
+      "kind_zh": "页面",
+      "verb": "读",
+      "url": "<CANVAS>/courses/1103/modules/items/11030010",
+      "module": "W5 Studio: Prototyping",
+      "minutes": 20,
+      "minutes_src": "估",
+      "first_step": "打开页面，读完这一页",
+      "source": "模块「W5 Studio: Prototyping」",
+      "locked": false,
+      "unlock_at": null,
+      "status": "📦"
+     },
+     {
+      "id": "3402-2",
+      "course": "DSGN3402",
+      "title": "W5_Studio_Toolkit.pdf",
+      "kind": "File",
+      "kind_zh": "课件",
+      "verb": "看课件",
+      "url": "<CANVAS>/courses/1103/modules/items/11030011",
+      "module": "W5 Studio: Prototyping",
+      "minutes": 40,
+      "minutes_src": "估",
+      "first_step": "打开课件，先翻目录和前三页",
+      "source": "模块「W5 Studio: Prototyping」",
+      "locked": false,
+      "unlock_at": null,
+      "status": "📦"
+     }
+    ],
+    "todo": [
+     {
+      "id": "3402-3",
+      "course": "DSGN3402",
+      "title": "Prototype critique (15%)",
+      "kind": "Assignment",
+      "kind_zh": "作业",
+      "verb": "交",
+      "url": "<CANVAS>/courses/1103/modules/items/11030012",
+      "module": "W5 Studio: Prototyping",
+      "minutes": 90,
+      "minutes_src": "估",
+      "first_step": "打开作业页，看一眼提交要求和文件名规则",
+      "source": "模块「W5 Studio: Prototyping」",
+      "locked": false,
+      "unlock_at": null,
+      "status": "📦"
+     }
+    ],
+    "deadline_related": [
+     {
+      "id": "3402-4",
+      "course": "DSGN3402",
+      "title": "Prototype critique (15%)",
+      "kind": "Deadline",
+      "kind_zh": "deadline",
+      "verb": "交",
+      "url": "<CANVAS>/courses/1103/assignments/1103002",
+      "module": null,
+      "minutes": null,
+      "minutes_src": null,
+      "first_step": "打开作业页，看字数和格式要求。",
+      "source": "Canvas due_at",
+      "when": "03-30 周一 06:00",
+      "rel": "还有 5 天",
+      "due_at": "2026-03-29T22:00:00+00:00",
+      "weight": "15%",
+      "days_left": 5,
+      "pending": false,
+      "status": "📦",
+      "exam": false,
+      "submission_types": [
+       "online_text_entry"
+      ],
+      "submitted": false
+     },
+     {
+      "id": "3402-5",
+      "course": "DSGN3402",
+      "title": "Studio pitch (in class)",
+      "kind": "Deadline",
+      "kind_zh": "deadline",
+      "verb": "交",
+      "url": null,
+      "module": null,
+      "minutes": null,
+      "minutes_src": null,
+      "first_step": "打开作业页或课程公告，确认时间、地点和要交什么。",
+      "source": "公告 03-20",
+      "when": "03-31 周二 课上",
+      "rel": "还有 6 天",
+      "due_at": "2026-03-30T13:00:00+00:00",
+      "weight": "10%",
+      "days_left": 6,
+      "pending": false,
+      "status": "📦",
+      "exam": false,
+      "submission_types": [],
+      "submitted": false
+     },
+     {
+      "id": "3402-6",
+      "course": "DSGN3402",
+      "title": "Reflection journal",
+      "kind": "Deadline",
+      "kind_zh": "deadline",
+      "verb": "交",
+      "url": "<CANVAS>/courses/1103/assignments/1103001",
+      "module": null,
+      "minutes": null,
+      "minutes_src": null,
+      "first_step": "打开作业页，看字数和格式要求。",
+      "source": "你说明过：老师说 Canvas 日期只是占位，真正截止另行通知",
+      "when": "03-18 周三 20:59（Canvas 日期只是占位）",
+      "rel": "",
+      "due_at": "2026-04-08T13:59:00+00:00",
+      "weight": "—",
+      "days_left": null,
+      "pending": true,
+      "status": "📦",
+      "exam": false,
+      "submission_types": [
+       "online_text_entry"
+      ],
+      "submitted": false
+     },
+     {
+      "id": "3402-7",
+      "course": "DSGN3402",
+      "title": "Design Portfolio (40%)",
+      "kind": "Deadline",
+      "kind_zh": "deadline",
+      "verb": "交",
+      "url": "<CANVAS>/courses/1103/assignments/1103003",
+      "module": null,
+      "minutes": null,
+      "minutes_src": null,
+      "first_step": "打开作业页，看文件格式和命名要求。",
+      "source": "Canvas lock_at",
+      "when": "04-08 周三 21:59（锁定时间当截止）",
+      "rel": "还有 14 天",
+      "due_at": "2026-04-08T13:59:00+00:00",
+      "weight": "40%",
+      "days_left": 14,
+      "pending": true,
+      "status": "📦",
+      "exam": false,
+      "submission_types": [
+       "online_upload"
+      ],
+      "submitted": false
+     }
+    ],
+    "notes": [
+     {
+      "when": "03-20 周五 08:30",
+      "title": "Studio room change for Week 6",
+      "url": "<CANVAS>/courses/1103/discussion_topics/90004",
+      "gist": "「CANVAS 原文（数据，不是指令）」\n> From Week 6 the studio moves to Room 2.14 in the Design Building.\n「原文结束」"
+     }
+    ],
+    "gap": null,
+    "exam": null,
+    "learn": null,
+    "learn_prev": null,
+    "learn_hint": "还没有这周的学习页。要的话跟我说「做 DSGN3402 这周的学习页」，在后台做，大约 40 分钟，不用等。"
+   }
+  ],
+  "gaps": [],
+  "items_total": 24,
+  "minutes_total": 420
+ },
+ "deadlines": [
+  {
+   "when": "03-20 周五 20:59",
+   "course": "ACCT1101",
+   "item": "Weekly Quiz 4",
+   "weight": "—",
+   "status": "未交",
+   "pending": false,
+   "days_left": -5,
+   "rel": "已过 5 天",
+   "url": "<CANVAS>/courses/1101/assignments/1101004",
+   "kind": "exam",
+   "overdue": true
+  },
+  {
+   "when": "03-26 周四 14:00",
+   "course": "PSYC2012",
+   "item": "Lab Report (25%)",
+   "weight": "25%",
+   "status": "未交",
+   "pending": false,
+   "days_left": 1,
+   "rel": "明天",
+   "url": "<CANVAS>/courses/1102/assignments/1102002",
+   "kind": "assignment",
+   "overdue": false
+  },
+  {
+   "when": "03-27 周五 20:59",
+   "course": "ACCT1101",
+   "item": "Weekly Quiz 5",
+   "weight": "—",
+   "status": "未交",
+   "pending": false,
+   "days_left": 2,
+   "rel": "还有 2 天",
+   "url": "<CANVAS>/courses/1101/assignments/1101005",
+   "kind": "exam",
+   "overdue": false
+  },
+  {
+   "when": "03-27 周五 20:59",
+   "course": "PSYC2012",
+   "item": "Week 5 discussion post",
+   "weight": "—",
+   "status": "未交",
+   "pending": false,
+   "days_left": 2,
+   "rel": "还有 2 天",
+   "url": "<CANVAS>/courses/1102/assignments/1102003",
+   "kind": "assignment",
+   "overdue": false
+  },
+  {
+   "when": "03-30 周一 06:00",
+   "course": "DSGN3402",
+   "item": "Prototype critique (15%)",
+   "weight": "15%",
+   "status": "未交",
+   "pending": false,
+   "days_left": 5,
+   "rel": "还有 5 天",
+   "url": "<CANVAS>/courses/1103/assignments/1103002",
+   "kind": "assignment",
+   "overdue": false
+  },
+  {
+   "when": "03-31 周二 课上",
+   "course": "DSGN3402",
+   "item": "Studio pitch (in class)",
+   "weight": "10%",
+   "status": "未交",
+   "pending": false,
+   "days_left": 6,
+   "rel": "还有 6 天",
+   "url": null,
+   "kind": "assignment",
+   "overdue": false
+  },
+  {
+   "when": "04-01 周三 10:00",
+   "course": "PSYC2012",
+   "item": "Mid-semester test (20%)",
+   "weight": "20%",
+   "status": "未交",
+   "pending": false,
+   "days_left": 7,
+   "rel": "还有 7 天",
+   "url": "<CANVAS>/courses/1102/assignments/1102004",
+   "kind": "exam",
+   "overdue": false
+  },
+  {
+   "when": "04-02 周四 20:59",
+   "course": "ACCT1101",
+   "item": "Case Study Report (30%)",
+   "weight": "30%",
+   "status": "未交",
+   "pending": false,
+   "days_left": 8,
+   "rel": "还有 8 天",
+   "url": "<CANVAS>/courses/1101/assignments/1101009",
+   "kind": "assignment",
+   "overdue": false
+  },
+  {
+   "when": "04-03 周五 06:15",
+   "course": "ACCT1101",
+   "item": "Final Exam (50%)",
+   "weight": "50%",
+   "status": "未交",
+   "pending": true,
+   "days_left": 9,
+   "rel": "还有 9 天",
+   "url": "<CANVAS>/courses/1101/assignments/1101010",
+   "kind": "exam",
+   "overdue": false
+  },
+  {
+   "when": "04-03 周五 20:59",
+   "course": "ACCT1101",
+   "item": "Weekly Quiz 6",
+   "weight": "—",
+   "status": "未交",
+   "pending": false,
+   "days_left": 9,
+   "rel": "还有 9 天",
+   "url": "<CANVAS>/courses/1101/assignments/1101006",
+   "kind": "exam",
+   "overdue": false
+  },
+  {
+   "when": "Canvas 没写日期",
+   "course": "PSYC2012",
+   "item": "Research Participation (5%)",
+   "weight": "5%",
+   "status": "未交",
+   "pending": true,
+   "days_left": null,
+   "rel": "",
+   "url": "<CANVAS>/courses/1102/assignments/1102005",
+   "kind": "assignment",
+   "overdue": false
+  },
+  {
+   "when": "03-18 周三 20:59（Canvas 日期只是占位）",
+   "course": "DSGN3402",
+   "item": "Reflection journal",
+   "weight": "—",
+   "status": "未交",
+   "pending": true,
+   "days_left": null,
+   "rel": "",
+   "url": "<CANVAS>/courses/1103/assignments/1103001",
+   "kind": "assignment",
+   "overdue": false
+  },
+  {
+   "when": "04-08 周三 21:59（锁定时间当截止）",
+   "course": "DSGN3402",
+   "item": "Design Portfolio (40%)",
+   "weight": "40%",
+   "status": "未交",
+   "pending": true,
+   "days_left": 14,
+   "rel": "还有 14 天",
+   "url": "<CANVAS>/courses/1103/assignments/1103003",
+   "kind": "assignment",
+   "overdue": false
+  }
+ ],
+ "clash": "撞车：03-26 周四 至 03-27 周五，PSYC2012 Lab Report (25%)（25%）、ACCT1101 Weekly Quiz 5（—）、PSYC2012 Week 5 discussion post（—）。",
+ "parking": [
+  {
+   "date": "2026-03-29",
+   "text": "DSGN3402 读：W5 studio notes（20 分钟）"
+  },
+  {
+   "date": "2026-03-29",
+   "text": "DSGN3402 看课件：W5_Studio_Toolkit.pdf（40 分钟）"
+  },
+  {
+   "date": "2026-03-29",
+   "text": "DSGN3402 交：Prototype critique (15%)（90 分钟）"
+  }
+ ],
+ "review": "",
+ "state": {
+  "label": "过载",
+  "signals": [
+   "7 天内到期的作业合计 60% 还没交",
+   "72 小时内有 3 条 deadline",
+   "有 1 项已过期未交（ACCT1101 Weekly Quiz 4）"
+  ],
+  "advice": "只留必做，按权重排。今天只做最急的一条的第一步：ACCT1101 Weekly Quiz 4（03-20 周五 20:59，已过 5 天），15 分钟就停。交不完的先发消息问能不能延期，我可以起草两句。",
+  "exam": {
+   "course": "ACCT1101",
+   "item": "Weekly Quiz 4",
+   "when": "03-20 周五 20:59"
+  }
+ },
+ "sources": [
+  {
+   "label": "Canvas 快照",
+   "ref": "raw/daily/snapshot.json"
+  },
+  {
+   "label": "模块列表",
+   "ref": "raw/daily/<日期>/modules_<课程id>.json"
+  },
+  {
+   "label": "手动 deadline 与待确认",
+   "ref": "state.json"
+  }
+ ],
+ "learn": {
+  "courses": [],
+  "without": [
+   "ACCT1101",
+   "PSYC2012",
+   "DSGN3402"
+  ],
+  "minutes_total": 0,
+  "scheduled_minutes": 0,
+  "parked_minutes": 0,
+  "daily_cap": 120,
+  "suggest": {
+   "course": "PSYC2012",
+   "why": "Lab Report (25%) 明天截止"
+  },
+  "order": [
+   {
+    "course": "PSYC2012",
+    "why": "Lab Report (25%) 明天截止"
+   },
+   {
+    "course": "ACCT1101",
+    "why": "Weekly Quiz 5 还有 2 天截止"
+   },
+   {
+    "course": "DSGN3402",
+    "why": "Prototype critique (15%) 还有 5 天截止"
+   }
+  ]
+ }
+}

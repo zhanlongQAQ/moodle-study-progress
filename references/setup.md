@@ -1,0 +1,52 @@
+# 入门：两样东西，其余自己来
+
+## 顺序
+0. 开始前先说一段（原文，AI 只提醒，不替用户改设置）：「开始前先改一个设置，能省掉你很多次点『允许』：看输入框左下角的权限设置，Claude Code 选『Auto』，Codex 选『帮我批准』。改完它会自己判断哪些操作安全，只有要紧的才来问你。想让周报和学习页讲得更细，建议把 AI 的努力程度调到 Extra high（xhigh）或更高，会慢一点、多用一些额度。接下来我会先认出你的学校，再请你登录或给一个 token，然后读你的课程、做好这周的清单，大概一两分钟。中途有不懂的直接问我。」之后每一步动手前说一句「现在做什么、大概多久」，做完说一句「好了，下一步是…」。
+1. Python：先用宿主已经提供的解释器。Codex 桌面版调用 `load_workspace_dependencies`，直接使用返回的 Python executable；否则依次试 `python3 --version`、`python --version`、Windows `py -3 --version`，再查已安装路径。任何一个能运行就不安装；全部不可用才征得用户同意安装。不要用 `xcode-select --install` 代替 Python 安装。
+2. `doctor --detect-site`：不需要 token 就能在浏览器记录里认 Canvas 域名。它会打印认出的域名和要用户做的事。
+3. 看输出决定。**一次只问一件事：先把学校网址确认下来，确认是 Canvas 才提 token；是 Moodle 根本不提 token。**
+   - 打印了「config.json：已新建」（token 早就在，站点也认出来了）→ 不用问任何事，直接第 5 步。
+   - 认出一个：「你学校的 Canvas 是不是 canvas.xxx.edu？是就回我一句。」（探测只是线索，token 只发给用户确认过的那一个地址。）他说是 → 再发 token 那段：「好。现在要一个 token，相当于一把只给我用的钥匙：Canvas → Account → Settings → Approved Integrations → New Access Token，Purpose 填 救驾，Expires 设学期最后一天，把生成的一长串整段复制，直接发给我，我来存好。」
+   - 有几个：「浏览器记录里有两个像 Canvas 的站点：A（常去）和 B，你学校用的是哪个？回一个就行。」选好再发 token 那段。
+   - 已读到记录但没找到、或者没法读：「把你平时交作业的那个网站随便哪一页的网址发我（浏览器地址栏里 https:// 开头的那一串）。是 Canvas 还是 Moodle 不用你分，我来认。」拿到网址跑 `doctor --host 网址`：认出 Moodle → 第 3½ 步；认出 Canvas → 发 token 那段。
+   - 记录读不了或可能被沙盒隐藏：先按宿主机制申请一次只读浏览器记录权限并重跑；仍不行才要网址。
+   - 已找到候选但网络 / 沙盒无法验证：先批准访问候选 Canvas（需要时检查校园网 / VPN）并重跑；候选不对才要网址。
+   - token 已经在、只差站点：只说站点那句。
+   3½. 要登录时（Moodle，或学校不让生成 token），弹窗前先说：「马上会弹出一个浏览器窗口（被挡住了就在任务栏找），在里面登录你学校的平台，账号密码和验证码都是你自己输，我看不到；看到 Keep me signed in / 保持登录就勾上，手机验证那步有『这台设备一段时间内不用再验证』也勾上，以后就不用再登。登好它会自己关，这是正常的。登好了回我一句。」然后 `login`，照它打印的往下做。以后登录过期，救驾先在后台自己重进（学校还记得就什么都不用学生做）；学校要重新输密码时才会报「重新登录」，那时再跑 `login`。它报这里弹不出窗口、或用户说没看到窗口：先看任务栏；还没有就按宿主的办法申请在沙盒外重跑 `login`。不要改用宿主自带的浏览器让用户登录：救驾读不到那里的登录，会白登一次。
+4. 用户发来 token → `token set` 存好（见下面「token 放哪」），再 `doctor`（有网址就 `doctor --host 网址`）：验证 token、建档（课程、时区、学期）。401 → 「token 多半复制不全，重新生成一个发给我」，不重新问学校。
+5. `collect --touch`（只记元数据；失败尝试不进入十分钟缓存）→ `radar --write` → `study --json`：哪门课 detect 是 none、又没有 outline（周报上写着「没按周排」），就给它读一遍课程说明（`outline 课 --syllabus`；Syllabus 里没有每周安排，就找课程里叫 Unit outline / Course outline 的链接或学校官网的课程说明页，`outline 课 --url 网址`），核对、补上 weeks_zh 后用 `outline 课 --file` 存回；只给这类课做，一门一两分钟 → `study --write --open`（写完直接用浏览器打开本周清单；资料夹在桌面上就再放一个「本周清单」快捷方式，并写好「我能帮你做什么」那一页）→ `collect --download --background`（只消费已有队列；同一档案最多一个后台 worker，命令立刻返回），然后一条消息（状态一句放最后）：「连上了：域名（浏览器记录里认出来的，不对就告诉我），N 门课。最急的一条：…（还有 N 天），第一步：…。这周最要紧的一件：…。本周清单已经帮你打开了；以后双击桌面上的『本周清单』就能看。做完一项就在上面打勾，再回来跟我说『做完了』（点页面底部的『复制，发给 AI』粘过来最快），不说我不知道你做完了。Deadline 雷达、每门课的课件和我做的东西都在桌面的『救驾』文件夹里，课件正在后台下；那个文件夹里还有一页『我能帮你做什么』，点一句话就能复制来问我。（study 的 learn.suggest 有值时加这一段）这周最该先做学习页的是 <课>（<suggest 的 why>）。要不要我现在在后台给它做一份这周的学习页？把这周要学的讲透，英文配中文，带自测题。大约 40 分钟，会用掉不少 AI 额度。做好了周报里会出现入口。接下来你可以直接说：『这周学什么』（细看这周每天做什么）、『最近要交什么』、『做完了』、『帮我导读这周的课件』。不知道怎么办，直接问我。状态：…。建议：…。」
+   从装好到这条消息之间的每一步（认出学校、存好 token 或登好、建档、采集）做完，都用一句话说这一步好了、下一步是什么；要用户动手的（确认学校、给 token、在窗口里登录）只说那一件。
+   主次：deadline 和本周清单先出来，其它一切（下载、导读、学习页）都排在后面。学习页第一次只推荐一门，学生说好才做（照 learn.md，先 `learn prep`），不等它；他看过第一份，下次开场再问一次另外几门，只问一次。
+6. doctor 打印的「你需要做的事」：`--fix-perms` 这类自己能做的做掉；时区的事不用跟用户说。
+
+## 站点探测（doctor --detect-site）
+读 Chrome / Edge / Brave / Firefox / Safari 的历史和书签：先复制到临时目录再只读打开，SQL 只取网址和访问次数；匹配 `*.instructure.com`、域名含 canvas 整词、路径 /login/canvas、/courses/数字；候选按访问次数排序，全程不带 token（Canvas 对 /api/v1/users/self 回 401，用这个判断像不像）；**token 只发给用户确认过的那一个地址**，确认后跑 `doctor --host 网址` 才写 HOME/site.json，临时副本删除。**不读网页标题，不保留任何网址。** Safari 的记录要系统的「完全磁盘访问」，读不了就直接要网址，不去申请权限。`--dry-run` 只列会读哪些文件。
+
+## token 放哪（都不用重启）
+用户把 token 直接发到对话里，这是正常做法，不让用户去弄环境变量、终端或别的窗口。收到就存：
+- Bash：`python "…/tools/coach.py" token set <<'EOF'`，下一行是 token，再下一行 `EOF`。
+- PowerShell：`'token' | python "…/tools/coach.py" token set`。
+- token 只从标准输入传，不放进命令参数，不写进别的文件；回复里不重复 token，只说「存好了」接着往下。知道学校地址时 `token set` 会先验一次，登不上就不存，照它那句请用户重新生成。
+- 存在 ~/.config/jiujiastudy/token（Mac / Linux 权限 600）。以后每条命令直接读，用户不用再给。换 token：用户再发一个新的，`token set` 覆盖；不用了：`token forget`。
+- 读取顺序：这个文件 → 环境变量 CANVAS_TOKEN → Windows 用户级注册表 → Mac 钥匙串（后三个是老版本存的，照样认）。
+- 不讲安全课；用户问了再说「token 存在你电脑上，只有你本人的账户能读；聊天记录里也有一份，介意就用完去 Canvas 撤销重新生成」。
+
+## 学校不让生成 token，或学校用 Moodle
+Moodle 学校不要 token：拿到网址就 `login --host 网址`（先不带凭据认出是 Moodle）。其余同下：确认学校地址后 `login`，照它打印的话请用户在弹出的窗口里自己登录（AI 不代输密码），用户说登好了 → `login --check` → `doctor`。之后自动用这份登录，只读；报「登录过期」就再 `login`。
+
+## 建档时自动推的（用户不用回答）
+- 课程：本学期 active 的课，代码从 course_code 里取（`CS101-F26` → CS101，`2026FA-BIO-101-01` → BIO101），图书馆、迎新、BYOD 测试站跳过并写进 config.notes。
+- 时区：自动认，时间都显示成用户电脑上的时间；不用跟用户解释时区。用户说「时间按上海显示」→ `config set user_tz Asia/Shanghai`；`config set user_tz auto` 恢复跟着电脑。
+- 学期周：config 有 week1_monday 就用；没有就在排本周清单时按模块名里最大已解锁的 Week N 反推，写进 config 并标「推断」；算不出就显示「周次待定」。用户说「这周是第 N 周」→ `config set term.week1_monday <那周周一>`，再 `config set term.week_source user`。
+- 上课日：不问。用户提到「这门课周二上」→ `config set courses` 里该课的 weekday（1–7），本周清单会把课件排在上课前一天。
+- 资料夹：默认桌面的「救驾」（Windows 从系统读真正的桌面路径，可能在 OneDrive 里），每门课一个文件夹，「课件」放 Canvas 原件，「产出」放 AI 做的一切；机器档案在里面的 .coach（隐藏），老版档案仍兼容 ~/CourseCoach。用户要换：`config set root <路径>` 再 `doctor`，旧文件会搬过去。`paths` 随时打印路径。
+- skill 位置：doctor 发现自己不在 skills 目录（用户把文件拖进了聊天）会提示，`doctor --install` 复制进 ~/.claude/skills（Codex 就 ~/.codex/skills），以后新对话直接可用。
+- /jj 入口：`doctor --install` 也把 skills/jj-* 入口装到主文件夹旁边，写进主文件夹路径；救驾挪了位置再跑一次会改好路径。`jj list` 列出装了哪些、各读哪份 references；用户要卸载救驾时先 `jj remove`，再删主文件夹。
+
+## 宿主差异（详见 agents.md）
+- Claude Code：`doctor --fix-perms` 把权限规则写进 ~/.claude/settings.json（备份 .bak）；被拦就把打印的块给用户。
+- Codex 桌面版：先用 `load_workspace_dependencies` 返回的 Python。第一次读取浏览器记录或联网访问 Canvas 时可能要批准；只批准准确的 `coach.py` 命令前缀，合适时选「始终允许」。`doctor` 仍会打印可合并进 config.toml 的项目片段。
+- 其它读 AGENTS.md 的代理：按它自己的方式批准 python 命令。
+
+## 数据坏了
+config.json 或 state.json 解析失败：复制成 .bak-日期，`doctor` 重建（config 从 Canvas 拉，state 建空的），告诉用户重建了什么、待确认和手动 deadline 可能少了。
