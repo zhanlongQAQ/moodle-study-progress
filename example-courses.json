@@ -1,0 +1,46 @@
+{
+  "courses": [
+    {
+      "course_id": 101,
+      "code": "Control Systems",
+      "unit": "Module",
+      "modules": [
+        {"name": "Module 1: Introduction", "items": [{"type": "File", "title": "Module 1.1 - Control Loops"}]},
+        {"name": "Module 2: Modelling", "items": [{"type": "File", "title": "Module 2.1 - Dynamic Models"}]},
+        {"name": "Module 3: Feedback", "items": [{"type": "File", "title": "Module 3.1 - Feedback Control"}]}
+      ]
+    },
+    {
+      "course_id": 102,
+      "code": "Reaction Engineering",
+      "unit": "Topic",
+      "modules": [
+        {"name": "Topic 1: Rates", "items": [{"type": "File", "title": "Lecture Notes Topic 1"}]},
+        {"name": "Topic 2: Batch Reactors", "items": [{"type": "File", "title": "Lecture Notes Topic 2"}]},
+        {"name": "Topic 3: Flow Reactors", "items": [{"type": "File", "title": "Lecture Notes Topic 3"}]},
+        {"name": "Topic 4: Catalysts", "items": [{"type": "File", "title": "Lecture Notes Topic 4"}]},
+        {"name": "Topic 5: External Diffusion", "items": [{"type": "File", "title": "Lecture Notes Topic 5"}]},
+        {"name": "Topic 6: Internal Diffusion", "items": [{"type": "File", "title": "Lecture Notes Topic 6"}]},
+        {"name": "Topic 7: Reactor Design", "items": []}
+      ]
+    },
+    {
+      "course_id": 103,
+      "code": "Engineering Finance",
+      "unit": "Week",
+      "modules": [
+        {"name": "Week 1: Financial Statements", "items": [{"type": "File", "title": "Week 1 Teaching Slides"}]},
+        {"name": "Week 2: Forecasting", "items": [{"type": "File", "title": "Week 2 Teaching Slides"}]},
+        {"name": "Week 3: Investment", "items": [{"type": "File", "title": "Week 3 Teaching Slides"}]},
+        {"name": "Week 4: Risk", "items": [{"type": "File", "title": "Week 4 Teaching Slides"}]},
+        {"name": "Week 5: Financing", "items": [{"type": "File", "title": "Week 5 Teaching Slides"}]},
+        {"name": "Reading Week (Week 6)", "items": [{"type": "File", "title": "Revision Deck"}]}
+      ]
+    }
+  ],
+  "simulated_release": {
+    "course_id": 102,
+    "section": "Topic 7: Reactor Design",
+    "item": {"type": "File", "title": "Lecture Notes Topic 7"}
+  }
+}
